@@ -25,7 +25,7 @@ Dequeue的方法具体实施可在LinkedList找到。（据Oracle文件： https
 ## LinkedList
 https://github.com/chenghanpeng/jdk10u/blob/4112b540a64794c52b6b223b5ce461246ce5f806/src/java.base/share/classes/java/util/LinkedList.java
 
-【代码】：
+【代码】：https://github.com/remix001/algorithm018/blob/master/week01/DequeueTest.java
 
 # 分析 Queue 和 Priority Queue 的源码
 
@@ -66,6 +66,8 @@ Extends AbstractQueue
   - 双指针，有快慢两个指针，快指针负责遍历，慢指针负责找到被换位后不重复的位置
   - method：将重复和不重复的对调位置
   
+  https://github.com/remix001/algorithm018/blob/master/week01/Q26.java
+  
   -----------------------
 
 旋转数组（微软、亚马逊、PayPal 在半年内面试中考过）
@@ -82,6 +84,9 @@ Extends AbstractQueue
   - Space: O(1)
   - 双指针
   - method：将不为零的往前挪
+  
+  https://github.com/remix001/algorithm018/blob/master/week01/Q283.java
+  
   -----------------------
 加一（谷歌、字节跳动、Facebook 在半年内面试中考过）
 
